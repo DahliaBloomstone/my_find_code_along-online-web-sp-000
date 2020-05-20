@@ -12,3 +12,8 @@ end
 collection = (1..100).to_a
 my_find(collection) {|i| i % 3 == 0 and i % 5 == 0 }
 #when yield(1) => false
+#does not call on #find
+#can handle an empty collection
+#yields the correct element to the block
+#returns the elements from the array when the block condition is met
+#returns nil when the block condition is not met
