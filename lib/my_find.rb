@@ -1,5 +1,4 @@
 require 'pry'
-
 #if block returns true, the argument passed into yield, will exit loop and will be the return value of the method. if false, continue to next element.
 def my_find(collection)
 i = 0
